@@ -1,5 +1,5 @@
 import axios from 'axios'
-const url = 'http://localhost:8000';
+const url = 'https://whatsapp-sv52.onrender.com';
 
 //post async hoy
 //aa function jevu login thase tyre call thase

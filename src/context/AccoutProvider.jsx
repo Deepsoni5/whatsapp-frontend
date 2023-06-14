@@ -11,7 +11,7 @@ const AccountProvider = ({ children }) => {
     const socket = useRef();
 
     useEffect(() => {
-        socket.current = io('ws://localhost:9000');
+        socket.current = io('wss://whatsapp-sv52.onrender.com');
     }, [])
     return (
         <AccountContext.Provider value={{

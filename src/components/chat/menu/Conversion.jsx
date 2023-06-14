@@ -61,7 +61,7 @@ const Conversion = ({ user }) => {
                 </Container>
                 <Box>
 
-                    <Text>{message?.text?.includes('localhost') ? 'Media' : message.text}</Text>
+                    <Text>{message?.text?.includes('whatsapp-sv52.onrender.com') ? 'Media' : message.text}</Text>
                 </Box>
             </Box>
         </Component>
