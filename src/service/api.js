@@ -14,6 +14,7 @@ export const addUser = async (data) => {
 export const getUsers = async () => {
     try {
         let response = await axios.get(`${url}/users`)
+        console.log(response);
         return response.data;
     } catch (error) {
         console.log(error.message)
