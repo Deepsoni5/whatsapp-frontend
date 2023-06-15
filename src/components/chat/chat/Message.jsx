@@ -64,6 +64,7 @@ const Message = ({ message }) => {
 }
 
 const ImageMessage = ({ message }) => {
+    console.log(message);
     return (
         <Box style={{ position: 'relative' }}>
 
