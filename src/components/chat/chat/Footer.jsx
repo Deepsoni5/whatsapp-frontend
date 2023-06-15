@@ -44,6 +44,7 @@ const Footer = ({ sendText, setValue, value, file, setFile, setImage }) => {
                 data.append("file", file)
 
                 let response = await uploadFile(data);
+                console.log(response);
                 setImage(response.data)
             }
         }
